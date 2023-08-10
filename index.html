@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="calculator">
-            <div class="display">10 * 10</div>
-            <div class="buttons">
-                <div class="button-group">
-                    <button id="btn-clear"class="button-pad span-clear">AC</button>
-                    <button id="btn-delete"class="button-pad">Del</button>
-                    <button id="btn-divide"class="button-pad">/</button>
-                </div>
-               
-                <div class="button-group">
-                    <button id="btn-seven"class="button-pad">7</button>
-                    <button id="btn-eight"class="button-pad">8</button>
-                    <button id="btn-nine"class="button-pad">9</button>
-                    <button id="btn-multiply"class="button-pad">*</button>
-                </div>
-                
-                <div class="button-group">
-                    <button id="btn-four"class="button-pad">4</button>
-                    <button id="btn-five"class="button-pad">5</button>
-                    <button id="btn-six"class="button-pad">6</button>
-                    <button id="btn-sub"class="button-pad">-</button>
-                </div>
+      <div class="calculator">
+        <div class="display"></div>
+        <div class="buttons">
+          <div class="button-group">
+            <button id="btn-clear" class="button-pad span-clear" value="ac">AC</button>
+            <button id="btn-delete" class="button-pad" value="del">&larr;</button>
+            <button id="btn-divide" class="button-pad" value="/">&divide;</button>
+          </div>
 
-                <div class="button-group">
-                    <button id="btn-one"class="button-pad">1</button>
-                    <button id="btn-two"class="button-pad">2</button>
-                    <button id="btn-three"class="button-pad">3</button>
-                    <button id="btn-add"class="button-pad">+</button>
-                </div>
-                
-                <div class="button-group">
-                    <button id="btn-zero"class="button-pad">0</button>
-                    <button id="btn-decimal"class="button-pad">.</button>
-                    <button id="btn-equals"class="button-pad span-equal">=</button>
-                </div>
-                
-            </div>
+          <div class="button-group">
+            <button id="btn-seven" class="button-pad num" value=7>7</button>
+            <button id="btn-eight" class="button-pad num" value=8>8</button>
+            <button id="btn-nine" class="button-pad num" value=9>9</button>
+            <button id="btn-multiply" class="button-pad" value="*">&times;</button>
+          </div>
+
+          <div class="button-group">
+            <button id="btn-four" class="button-pad num" value=4>4</button>
+            <button id="btn-five" class="button-pad num" value=5>5</button>
+            <button id="btn-six" class="button-pad num" value=6>6</button>
+            <button id="btn-sub" class="button-pad" value="-">&minus;</button>
+          </div>
+
+          <div class="button-group">
+            <button id="btn-one" class="button-pad num" value=1>1</button>
+            <button id="btn-two" class="button-pad num" value=2>2</button>
+            <button id="btn-three" class="button-pad num" value=3>3</button>
+            <button id="btn-add" class="button-pad" value="+">&plus;</button>
+          </div>
+
+          <div class="button-group">
+            <button id="btn-zero" class="button-pad num" value=0>0</button>
+            <button id="btn-decimal" class="button-pad num" value=".">&period;</button>
+            <button id="btn-equals" class="button-pad span-equal" value="=">&equals;</button>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
